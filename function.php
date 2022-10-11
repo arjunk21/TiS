@@ -21,13 +21,13 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_head', 'tis_google_analytics', 10 );
 function tis_google_analytics() { ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-211435377-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxx-x"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-211435377-1');
-  gtag('config', 'G-SCYPQ6EJJF');
+  gtag('config', 'UA-xxxxxx-x');
+  gtag('config', 'G-xxxxxxxxx');
 </script>
 
 <?php }
