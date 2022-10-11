@@ -92,7 +92,7 @@ function job_title_change( $title ){
 add_action('acf/init', 'my_acf_init');
 /* Google Maps API */
 function my_acf_init() {
-acf_update_setting('google_api_key', 'AIzaSyCzNAU04X-GQwucOh_f4htK_417R8orMo0');
+acf_update_setting('google_api_key', 'XXXXXXXXXXXXXX');
 }
 add_shortcode('imp-links','imp_links');
 function imp_links(){
